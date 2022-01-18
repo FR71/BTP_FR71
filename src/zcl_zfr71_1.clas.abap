@@ -15,8 +15,8 @@ CLASS zcl_zfr71_1 IMPLEMENTATION.
 
 METHOD if_oo_adt_classrun~main.
 
+   out->write( `DONE...1` ).
 
-
-   out->write( `DONE...!` ).
+   out->write( `DONE...2` ).
 endmethod.
 ENDCLASS.
